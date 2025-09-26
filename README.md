@@ -17,3 +17,18 @@ Rename Branch: git branch -M <new-branch-name>
 To create new branch: git checkout -b <branch-name>
 To switch branch: git checkout <branch-name>
 Delete any Branch: git branch -d <branch-name> =>If I am in the feature1 branch then I am not able to delete that branch.
+
+# Merge Conflicts
+It will come when we make chnges in the same line of the code.
+# undoing 
+  # Stage changes reset
+  git reset => for reset all the files     
+  git reset file_name => for reset in one file
+  # commit changes reset
+  reset for one commit => git reset head~1
+  for check all the commits => git log
+  to go directly on the hash value => git reset <hash value>
+  to reset all the changes after any hash value => git reset --hard<hash value>
+
+  
+  
