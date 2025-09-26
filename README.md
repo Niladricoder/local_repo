@@ -6,7 +6,7 @@ To commit any file from my local pc there are some spets:
 # Init command
 1) =>It is used to create new git repo. 
 2) commad: git init =>  this command create a default repo into git repo.
-3) After creating the init file we will create a new repo in github then copy HTTPS link and run the command to set origin: git remote add origin <link of the repo>
+3) After creating the init file we will create a new repo in github then copy HTTPS link and run the command to set origin: git remote add origin (link of the repo)
 4) To verify the repo we use: git remote -v
 5) Check Branch: git branch
 6) Rename Branch: git branch -M <new_branch_name>
