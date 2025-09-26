@@ -7,4 +7,13 @@ To commit any file from my local pc there are some spets:
 =>It is used to create new git repo. 
 commad: git init =>  this command create a default repo into git repo.
 After creating the init file we will create a new repo in github then copy HTTPS link and run the command to set origin: git remote add origin <link of the repo>
-
+To verify the repo we use: git remote -v
+Check Branch: git branch
+Rename Branch: git branch -M <new_branch_name>
+set upstream: means if we don't want to write every time origin main so we can use this command => git push -u origin main. By using the -u no need to again write "git push origin main" directly use "git push" it will push the file in the same origin.
+# Git Branch
+Check Branch name: git branch
+Rename Branch: git branch -M <new-branch-name>
+To create new branch: git checkout -b <branch-name>
+To switch branch: git checkout <branch-name>
+Delete any Branch: git branch -d <branch-name> =>If I am in the feature1 branch then I am not able to delete that branch.
